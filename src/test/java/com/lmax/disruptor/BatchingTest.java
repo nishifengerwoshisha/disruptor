@@ -87,7 +87,7 @@ public class BatchingTest
         d.handleEventsWith(handler1, handler2);
 
         RingBuffer<LongEvent> buffer = d.start();
-        String aa = "测试远程仓库";
+        String aa = "测试远程仓库11111";
         EventTranslator<LongEvent> translator = new EventTranslator<LongEvent>()
         {
             @Override
